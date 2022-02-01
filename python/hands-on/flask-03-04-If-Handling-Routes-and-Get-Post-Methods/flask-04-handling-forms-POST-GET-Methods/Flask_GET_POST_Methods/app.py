@@ -31,7 +31,7 @@ def calculate():
         num2 = request.form.get("number2")
         return render_template("result.html", result1 = num1, result2 = num2, lcm = lcm(int(num1),int(num2)), developer_name = 'Yigitbi')
     else:
-        return render_template("result.html", developer_name = 'Yigitbi')
+        return render_template("result.html", developer_name = 'ahmet')
 
 
 # Add a statement to run the Flask application which can be debugged.
